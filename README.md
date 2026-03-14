@@ -45,7 +45,7 @@ nasm -f elf64 keylogger.asm ; ld keylogger.o -o keylogger ; sudo ./keylogger </d
 ```
 
 ### Malware autopsy
-#### first analysis without obfuscation method (14/03/2026)
+#### First analysis without obfuscation method (14/03/2026)
 
 By running the program, you can see the DNS queries it performs.
 ![](img/wireshark.png)
@@ -53,6 +53,10 @@ By running the program, you can see the DNS queries it performs.
 The fact that binary ninja attempt to recreate the high-level code in which the program was never created is quite fun. However all the syscall, the data (domain and files) is perfectly understandable and clearly displayed. Therefore, it wouldn't be very difficult to recover all the IOCs using a reverse analysis.
 ![](img/binary%20ninja.png)
 
+Things to add before the next analysis :
+- syscall obfuscation
+- dynamic signature generation allowing its fingerprint to be modified at each execution
+- persistence mechanism
 
 ### Warning
 Only use this program on a machine you own. This code was written for educational purposes.
