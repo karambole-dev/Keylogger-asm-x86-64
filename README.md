@@ -1,7 +1,8 @@
 ```
 Is this an AI generated project ?
 
-AI was used to facilitate the collection of informations as well as to debug certain syntax errors. But all of the code was written by a human.
+AI was used to facilitate the collection of informations as well as to debug certain syntax errors.
+But all of the code was written by a human.
 ```
 
 ### Pseudo code
@@ -42,3 +43,6 @@ sudo ./keylogger </dev/null &
 ```
 nasm -f elf64 keylogger.asm ; ld keylogger.o -o keylogger ; sudo ./keylogger </dev/null &
 ```
+
+### Warning
+Only use this program on a machine you own. This code was written for educational purposes.
