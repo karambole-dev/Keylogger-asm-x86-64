@@ -1,10 +1,3 @@
-```
-Is this an AI generated project ?
-
-AI was used to facilitate the collection of informations as well as to fix syntax errors.
-But all of the code was written by a human.
-```
-
 ### Pseudo code
 ```
 input_event = readOneInputEvent("/dev/input/event0")
@@ -71,3 +64,12 @@ But it is still easy to retrieve the file and deduce the syscalls from it.
 
 ### Warning
 Only use this program on a machine you own. This code was written for educational purposes.
+
+---
+
+```
+Is this an AI generated project ?
+
+AI was used to facilitate the collection of informations as well as to fix syntax errors.
+But all of the code and the content was written by a human.
+```
