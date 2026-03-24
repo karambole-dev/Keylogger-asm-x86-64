@@ -1,5 +1,4 @@
 section .data
-    buffer db "abcdefgh"
     temp_digit dq 0
     h dq 5381
 
